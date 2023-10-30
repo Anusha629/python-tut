@@ -1,7 +1,7 @@
-from sys import argv 
-script, first, second, third = argv 
+from sys import argv
 
-print("the script is called:" , script)
-print("Your first variable is:", first)
-print("Your second variable is:", second)
-print("Your third variable is:", third)
+script, first_argument, second_argument = argv
+
+print("The script is called:", script)
+print("Your first argument is:", first_argument)
+print("Your second argument is:", second_argument)
