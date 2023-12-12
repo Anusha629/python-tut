@@ -79,3 +79,12 @@ son.override()
 
 dad.altered()
 son.altered()
+
+
+#super()
+
+class child(Parent):
+    def __init__(self, stuff):
+        self.stuff = stuff 
+
+        super(child,self).__init__()
