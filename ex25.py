@@ -18,9 +18,10 @@ def print_last_word(words):
     print(word)
     
 def sort_sentence(sentence):
-   """Takes in a full sentence and returns the sorted words."""
-     words = break_words(sentence) 
-     return sort_words(words)
+    """Takes in a full sentence and returns the sorted words."""
+    words = break_words(sentence) 
+    return sort_words(words)
+
     
 def print_first_and_last_(sentence):
     """prints the first and last words of the sentence """
@@ -29,10 +30,10 @@ def print_first_and_last_(sentence):
     print_last_words(words)
     
 def print_first_and_last_sorted(sentence):
-"""sorts the words then prints the first and last one """
-words = sort_sentence(sentence)
-print_first_word(words)
-print_last_word(words)
+    """sorts the words then prints the first and last one """
+    words = sort_sentence(sentence)
+    print_first_word(words)
+    print_last_word(words)
 
 
 
