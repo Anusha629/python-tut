@@ -14,14 +14,13 @@ print("Opening the file...")
 target = open(filename, 'w')
 
 
-print("Truncating the file.
+print("Truncating the file.Goodbye!")
 target.truncate()
 
-Goodbye!")
 
 print("Now I'm going to ask you for three lines.")
 
-1ine1 = input("line 1: ")
+line1 = input("line 1: ")
 line2 = input("line 2: ")
 line3 = input("line 3: ")
 

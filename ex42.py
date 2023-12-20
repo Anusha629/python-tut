@@ -9,7 +9,7 @@ class Cat(Animal):
 class Person(object):
     def __init__(self, name):
         self.name = name
-        self.Pet= None 
+        self.pet= None 
 
 class Employee(Person):
     def __init__(self, name,salary):
