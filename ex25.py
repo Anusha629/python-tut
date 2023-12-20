@@ -1,6 +1,6 @@
 def break_words(stuff):
     """This function will break up words for us."""
-    words -= stuff.split(' ')
+    words = stuff.split(' ')
     return words
     
 def sort_words(words):
@@ -21,13 +21,6 @@ def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words."""
     words = break_words(sentence) 
     return sort_words(words)
-
-    
-def print_first_and_last_(sentence):
-    """prints the first and last words of the sentence """
-    words = break_words(sentence)
-    print_first_words(sentence)
-    print_last_words(words)
     
 def print_first_and_last_sorted(sentence):
     """sorts the words then prints the first and last one """
