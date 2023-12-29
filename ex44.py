@@ -124,4 +124,3 @@ son = Child()
 son.implicit()
 son.override()
 son.altered()
-
