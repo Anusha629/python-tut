@@ -1,4 +1,4 @@
-from nose.tools import *
+from nose import *
 from ex47_game import Room 
 
 def test_room():
